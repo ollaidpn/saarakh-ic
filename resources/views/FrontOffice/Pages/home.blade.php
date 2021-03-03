@@ -137,10 +137,11 @@
     <section class="section causes"><img class="causes__bg" src="{{ asset('assets/FrontOffice/img/causes_img.png')}}" alt="img"/>
         <div class="container">
             <div class="row align-items-end">
+
                 <div class="col-xl-5">
-                    <div class="heading heading--primary"><span class="heading__pre-title">What we Do</span>
-                        <h2 class="heading__title"><span>Helpo</span> <span>Causes</span></h2>
-                        <p>Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail, Canthigaster rostrata. Midshipman dartfish Modoc sucker, yellowtail kingfish</p>
+                    <div class="heading heading--primary"><span class="heading__pre-title">Que faisons nous ?</span>
+                        <h2 class="heading__title"><span>Causes</span> <span>défendus</span></h2>
+                        <p class="no-margin-bottom">Nous créons des campagne de collecte de don en fonction des cause défendus sur cette plateforme que ca soit dans le domaine du social, société, ou médical.</p>
                     </div>
                 </div>
                 <div class="col-xl-6 offset-xl-1 d-none d-xl-block">
@@ -187,11 +188,11 @@
                         <div class="causes-item causes-item--primary">
                             <div class="causes-item__body">
                                 <div class="causes-item__top">
-                                    <h6 class="causes-item__title"> <a href="cause-details.html">Water Delivery in Africa</a></h6>
-                                    <p>Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail</p>
+                                    <h6 class="causes-item__title"> <a href="cause-details.html">Aider les malades hospitalisés</a></h6>
+                                    <p> Collecter l'argent pour venir en aide les malades hospitalisés dans les hopitaux, contribuer a leurs frais hospitalisation et aux ordonances.</p>
                                 </div>
                                 <div class="causes-item__img">
-                                    <div class="causes-item__badge" style="background-color: #49C2DF">Water Delivery</div><img class="img--bg" src="{{ asset('assets/FrontOffice/img/causes_1.jpg')}}" alt="img"/>
+                                    <div class="causes-item__badge" style="background-color: #49C2DF">Médical</div><img class="img--bg" src="{{ asset('assets/FrontOffice/img/cause1a.jpg')}}" alt="img"/>
                                 </div>
                                 <div class="causes-item__lower">
                                     <div class="progress-bar">
@@ -200,8 +201,8 @@
                                         </div>
                                     </div>
                                     <div class="causes-item__details-holder">
-                                        <div class="causes-item__details-item"><span>Goal: </span><span>25 000$</span></div>
-                                        <div class="causes-item__details-item text-right"><span>Pledged: </span><span>20 350$</span></div>
+                                        <div class="causes-item__details-item"><span>Ojectif: </span><span>500.000 Fcfa</span></div>
+                                        <div class="causes-item__details-item text-right"><span>Collecté: </span><span>0 Fcfa</span></div>
                                     </div>
                                 </div>
                             </div><a class="button causes-item__button button--primary" href="#">+ Faire un don</a>
@@ -211,21 +212,21 @@
                         <div class="causes-item causes-item--primary">
                             <div class="causes-item__body">
                                 <div class="causes-item__top">
-                                    <h6 class="causes-item__title"> <a href="cause-details.html">Health in other Countries</a></h6>
-                                    <p>Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail</p>
+                                    <h6 class="causes-item__title"> <a href="cause-details.html">Soin des yeux</a></h6>
+                                    <p>Consultation ophtalmologique et don de lunette sur ordonances pour les personnes qui ont des probleme de yeux</p>
                                 </div>
                                 <div class="causes-item__img">
-                                    <div class="causes-item__badge" style="background-color: #F36F8F">Medicine</div><img class="img--bg" src="{{ asset('assets/FrontOffice/img/causes_2.jpg')}}" alt="img"/>
+                                    <div class="causes-item__badge" style="background-color: #F36F8F">Social</div><img class="img--bg" src="{{ asset('assets/FrontOffice/img/causes_2.jpg')}}" alt="img"/>
                                 </div>
                                 <div class="causes-item__lower">
                                     <div class="progress-bar">
-                                        <div class="progress-bar__inner" style="width: 23%;">
-                                            <div class="progress-bar__value">23%</div>
+                                        <div class="progress-bar__inner" style="width: 5%;">
+                                            <div class="progress-bar__value">5%</div>
                                         </div>
                                     </div>
                                     <div class="causes-item__details-holder">
-                                        <div class="causes-item__details-item"><span>Goal: </span><span>14 000$</span></div>
-                                        <div class="causes-item__details-item text-right"><span>Pledged: </span><span>6 098$</span></div>
+                                        <div class="causes-item__details-item"><span>Objectif: </span><span>500.000 Fcfa</span></div>
+                                        <div class="causes-item__details-item text-right"><span>Collecté: </span><span>0 Fcfa</span></div>
                                     </div>
                                 </div>
                             </div><a class="button causes-item__button button--primary" href="#">+ Faire un don</a>
@@ -235,11 +236,11 @@
                         <div class="causes-item causes-item--primary">
                             <div class="causes-item__body">
                                 <div class="causes-item__top">
-                                    <h6 class="causes-item__title"> <a href="cause-details.html">We Build and Create</a></h6>
-                                    <p>Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail</p>
+                                    <h6 class="causes-item__title"> <a href="cause-details.html">Soutenir les femmes en prison</a></h6>
+                                    <p> Soutenir les femmes en prison, leur acheter des serviette hygiénique, des savons,  </p>
                                 </div>
                                 <div class="causes-item__img">
-                                    <div class="causes-item__badge" style="background-color: #2EC774">Education</div><img class="img--bg" src="{{ asset('assets/FrontOffice/img/causes_3.jpg')}}" alt="img"/>
+                                    <div class="causes-item__badge" style="background-color: #2EC774">Société</div><img class="img--bg" src="{{ asset('assets/FrontOffice/img/causes_3.jpg')}}" alt="img"/>
                                 </div>
                                 <div class="causes-item__lower">
                                     <div class="progress-bar">
@@ -248,8 +249,8 @@
                                         </div>
                                     </div>
                                     <div class="causes-item__details-holder">
-                                        <div class="causes-item__details-item"><span>Goal: </span><span>150 000$</span></div>
-                                        <div class="causes-item__details-item text-right"><span>Pledged: </span><span>76 500$</span></div>
+                                        <div class="causes-item__details-item"><span>Objectif: </span><span>150 000$</span></div>
+                                        <div class="causes-item__details-item text-right"><span>Collecté: </span><span>76 500$</span></div>
                                     </div>
                                 </div>
                             </div><a class="button causes-item__button button--primary" href="#">+ Faire un don</a>
@@ -259,7 +260,7 @@
                         <div class="causes-item causes-item--primary">
                             <div class="causes-item__body">
                                 <div class="causes-item__top">
-                                    <h6 class="causes-item__title"> <a href="cause-details.html">Healthy Food</a></h6>
+                                    <h6 class="causes-item__title"> <a href="cause-details.html">Visite & aide des orphelinats</a></h6>
                                     <p>Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail</p>
                                 </div>
                                 <div class="causes-item__img">
@@ -272,8 +273,8 @@
                                         </div>
                                     </div>
                                     <div class="causes-item__details-holder">
-                                        <div class="causes-item__details-item"><span>Goal: </span><span>50 000$</span></div>
-                                        <div class="causes-item__details-item text-right"><span>Pledged: </span><span>25 000$</span></div>
+                                        <div class="causes-item__details-item"><span>Objectif: </span><span>50 000$</span></div>
+                                        <div class="causes-item__details-item text-right"><span>Pledged: </span><span>250 000 Fcfa</span></div>
                                     </div>
                                 </div>
                             </div><a class="button causes-item__button button--primary" href="#">+ Faire un don</a>
@@ -289,9 +290,9 @@
         <div class="container">
             <div class="row align-items-end margin-bottom">
                 <div class="col-lg-9">
-                    <div class="heading heading--primary"><span class="heading__pre-title">What we Did</span>
-                        <h2 class="heading__title"><span>Helpo</span> <span>Projects</span></h2>
-                        <p class="no-margin-bottom">Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail, Canthigaster rostrata. Midshipman dartfish Modoc sucker, yellowtail kingfish </p>
+                    <div class="heading heading--primary"><span class="heading__pre-title">Que faisons nous ?</span>
+                        <h2 class="heading__title"><span>Causes</span> <span>défendus</span></h2>
+                        <p class="no-margin-bottom">Nous créons des campagne de collecte de don en fonction des cause défendus sur cette plateforme que ca soit dans le domaine du social, société, ou médical.</p>
                     </div>
                 </div>
             </div>
@@ -300,12 +301,12 @@
             <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-1 projects-masonry__item--vertical">
                 <div class="projects-masonry__img"><img class="img--bg" src="{{ asset('assets/FrontOffice/img/projects_1.jpg')}}" alt="img"/></div>
                 <div class="projects-masonry__text" style="background-color: #2EC774;">
-                    <div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #49C2DF;">Water Delivery</span>
-                        <h3 class="projects-masonry__title"> <a href="cause-details.html">More than One Life Changed</a></h3>
-                        <p>Rockweed gunnel; candlefish mail-cheeked fish, yellowtail snapper cuskfish elasmobranch seamoth triggerfish gar </p>
+                    <div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #49C2DF;">Société</span>
+                        <h3 class="projects-masonry__title"> <a href="cause-details.html">Soutenir les femmes en prison</a></h3>
+                        <p>Soutenir les femmes en prison, leur acheter des serviette hygiénique, des savons</p>
                         <div class="projects-masonry__details-holder">
-                            <div class="projects-masonry__details-item"><span>Goal: </span><span>25 000$</span></div>
-                            <div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
+                            <div class="projects-masonry__details-item"><span>Objectif: </span><span>250 000 Fcfa</span></div>
+                            <div class="projects-masonry__details-item"><span>Date: </span><span>23 Jand19</span></div>
                         </div>
                     </div>
                 </div>
@@ -313,11 +314,11 @@
             <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal">
                 <div class="projects-masonry__img"><img class="img--bg" src="{{ asset('assets/FrontOffice/img/projects_2.jpg')}}" alt="img"/></div>
                 <div class="projects-masonry__text" style="background-color: #9BC35E;">
-                    <div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #F36F8F;">Medicine</span>
-                        <h3 class="projects-masonry__title"> <a href="cause-details.html">Helpo for Help</a></h3>
-                        <p>Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish shortnose greeneye fusilier fish silver carp</p>
+                    <div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #F36F8F;">Medical</span>
+                        <h3 class="projects-masonry__title"> <a href="cause-details.html">Aider les femmes hospitalisés</a></h3>
+                        <p>Collecter l'argent pour venir en aide les malades hospitalisés dans les hopitaux, contribuer a leurs frais hospitalisation et aux ordonances.</p>
                         <div class="projects-masonry__details-holder">
-                            <div class="projects-masonry__details-item"><span>Goal: </span><span>25 000$</span></div>
+                            <div class="projects-masonry__details-item"><span>Objectif: </span><span>250 000 Fcfa</span></div>
                             <div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
                         </div>
                     </div>
@@ -329,32 +330,32 @@
                         <h3 class="projects-masonry__title"> <a href="cause-details.html">Help for Children of the East</a></h3>
                         <p>Murray cod clownfish American sole rockfish dojo loach gulper, trout-perch footballfish, pelican eel. Spinefoot coelacanth eagle ray </p>
                         <div class="projects-masonry__details-holder">
-                            <div class="projects-masonry__details-item"><span>Goal: </span><span>25 000$</span></div>
+                            <div class="projects-masonry__details-item"><span>Objectif: </span><span>250 000 Fcfa</span></div>
                             <div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary">
+           <div class="col-lg-6 col-xl-4 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--primary">
                 <div class="projects-masonry__img"><img class="img--bg" src="{{ asset('assets/FrontOffice/img/projects_4.jpg')}}" alt="img"/>
                     <div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #2EC774;">Education</span>
                         <h3 class="projects-masonry__title"> <a href="cause-details.html">Help for Children of the East</a></h3>
                         <p>Murray cod clownfish American sole rockfish dojo loach gulper, trout-perch footballfish, pelican eel. Spinefoot coelacanth eagle ray </p>
                         <div class="projects-masonry__details-holder">
-                            <div class="projects-masonry__details-item"><span>Goal: </span><span>25 000$</span></div>
+                            <div class="projects-masonry__details-item"><span>Objectif: </span><span>250 000 Fcfa</span></div>
                             <div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal">
+           {{--   <div class="col-lg-6 col-xl-8 projects-masonry__item projects-masonry__item--height-2 projects-masonry__item--horizontal">
                 <div class="projects-masonry__img"><img class="img--bg" src="{{ asset('assets/FrontOffice/img/projects_5.jpg')}}" alt="img"/></div>
                 <div class="projects-masonry__text" style="background-color: #E78F51;">
                     <div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #2EC774;">Education</span>
                         <h3 class="projects-masonry__title"> <a href="cause-details.html">Help for Children of the East</a></h3>
                         <p>Murray cod clownfish American sole rockfish dojo loach gulper, trout-perch footballfish, pelican eel. Spinefoot coelacanth eagle ray </p>
                         <div class="projects-masonry__details-holder">
-                            <div class="projects-masonry__details-item"><span>Goal: </span><span>25 000$</span></div>
+                            <div class="projects-masonry__details-item"><span>Objectif: </span><span>250 000 Fcfa</span></div>
                             <div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
                         </div>
                     </div>
@@ -366,12 +367,12 @@
                         <h3 class="projects-masonry__title"> <a href="cause-details.html">Helpo for Help</a></h3>
                         <p>Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish shortnose greeneye fusilier fish silver carp</p>
                         <div class="projects-masonry__details-holder">
-                            <div class="projects-masonry__details-item"><span>Goal: </span><span>25 000$</span></div>
+                            <div class="projects-masonry__details-item"><span>Objectif: </span><span>250 000 Fcfa</span></div>
                             <div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
     <!-- projects end-->

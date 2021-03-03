@@ -42,7 +42,7 @@
                             <!-- End mobile menu toggle-->
                         </li>
 
-                        <li class="dropdown d-none d-lg-block">
+                        {{-- <li class="dropdown d-none d-lg-block">
                             <a class="nav-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                                 <img src="{{asset('assets/BackOffice/images/flags/us.jpg')}}" alt="user-image" class="mr-1" height="12"> <span class="align-middle">English <i class="mdi mdi-chevron-down"></i> </span>
                             </a>
@@ -68,7 +68,7 @@
                                 </a>
 
                             </div>
-                        </li>
+                        </li> --}}
 
                         <li class="dropdown notification-list">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
@@ -153,21 +153,21 @@
                             <a class="nav-link dropdown-toggle nav-user mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                                 <img src="{{asset('assets/BackOffice/images/users/avatar-4.jpg')}}" alt="user-image" class="rounded-circle">
                                 <span class="pro-user-name ml-1">
-                                    Morgan K <i class="mdi mdi-chevron-down"></i>
+                                    Pape Ndiouga<i class="mdi mdi-chevron-down"></i>
                                 </span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                                 <!-- item-->
                                 <div class="dropdown-item noti-title">
                                     <h6 class="m-0">
-                                        Welcome !
+                                        Salur !
                                     </h6>
                                 </div>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <i class="dripicons-user"></i>
-                                    <span>My Account</span>
+                                    <span>Mon profile</span>
                                 </a>
 
                                 <!-- item-->
@@ -178,22 +178,8 @@
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="dripicons-help"></i>
-                                    <span>Support</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="dripicons-lock"></i>
-                                    <span>Lock Screen</span>
-                                </a>
-
-                                <div class="dropdown-divider"></div>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <i class="dripicons-power"></i>
-                                    <span>Logout</span>
+                                    <span>Déconnexion</span>
                                 </a>
 
                             </div>
@@ -219,12 +205,12 @@
                                 </span>
                             </a>
                         </li>
-                        <li class="app-search d-none d-md-block">
-                            <form>
-                                <input type="text" placeholder="Search..." class="form-control">
-                                <button type="submit" class="sr-only"></button>
-                            </form>
-                        </li>
+                            {{-- <li class="app-search d-none d-md-block">
+                                <form>
+                                    <input type="text" placeholder="Search..." class="form-control">
+                                    <button type="submit" class="sr-only"></button>
+                                </form>
+                            </li> --}}
 
                     </ul>
                 </div> <!-- end container-fluid-->
@@ -239,10 +225,10 @@
                         <ul class="navigation-menu">
 
                             <li class="has-submenu">
-                                <a href="index-2.html"><i class="fe-airplay"></i>Dashboards</a>
+                                <a href="index-2.html"><i class="fe-airplay"></i>Tableau de bord</a>
                             </li>
 
-                            <li class="has-submenu">
+                            {{-- <li class="has-submenu">
                                 <a href="#">
                                 <i class="fe-hard-drive"></i>Components <div class="arrow-down"></div></a>
                                 <ul class="submenu">
@@ -315,69 +301,29 @@
                                         <a href="icons-dripicons.html">Dripicons</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> --}}
 
 
 
-                            <li class="has-submenu">
-                                <a href="#"> <i class="fe-book-open"></i>Pages <div class="arrow-down"></div></a>
-                                <ul class="submenu megamenu">
-                                    <li>
-                                        <ul>
-                                            <li>
-                                                <a href="pages-starter.html">Starter</a>
-                                            </li>
-                                            <li>
-                                                <a href="pages-calendar.html">Calendar</a>
-                                            </li>
-                                            <li>
-                                                <a href="pages-timeline.html">Timeline</a>
-                                            </li>
-                                            <li>
-                                                <a href="pages-invoice.html">Invoice</a>
-                                            </li>
-                                            <li>
-                                                <a href="pages-contacts.html">Contacts</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <ul>
-                                            <li>
-                                                <a href="pages-login.html">Login</a>
-                                            </li>
-                                            <li>
-                                                <a href="pages-register.html">Register</a>
-                                            </li>
-                                            <li>
-                                                <a href="pages-recoverpw.html">Recover Password</a>
-                                            </li>
-                                            <li>
-                                                <a href="pages-lock-screen.html">Lock Screen</a>
-                                            </li>
-                                            <li>
-                                                <a href="pages-404.html">Error 404</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                            <li >
+                                <a href="{{route('b-causes')}}"> <i class="fe-book-open"></i>Causes </a>
 
-                                </ul>
                             </li>
 
                             <li class="has-submenu">
-                                <a href="#"> <i class="fe-layout"></i>Layouts <div class="arrow-down"></div></a>
+                                <a href="#"> <i class="fe-layout"></i>Paramètres <div class="arrow-down"></div></a>
                                 <ul class="submenu">
                                     <li>
-                                        <a href="layouts-topbar-light.html">Topbar light</a>
+                                        <a href="{{route('b-system-infos')}}">Infos Systèmes</a>
                                     </li>
                                     <li>
-                                        <a href="layouts-menubar-light.html">Menubar Light</a>
+                                        <a href="{{route('b-system-infos')}}">Menubar Light</a>
                                     </li>
                                     <li>
-                                        <a href="layouts-center-menu.html">Center Menu</a>
+                                        <a href="{{route('b-system-infos')}}">Center Menu</a>
                                     </li>
                                     <li>
-                                        <a href="layouts-normal-header.html">Unsticky Header</a>
+                                        <a href="{{route('b-system-infos')}}">Unsticky Header</a>
                                     </li>
                                 </ul>
                             </li>

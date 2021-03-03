@@ -65,10 +65,10 @@
 						<li class="aside-menu__item aside-menu__item--has-child"><a class="aside-menu__link" href="javascript:void(0);"><span>Pages</span></a>
 							<!-- sub menu start-->
 							<ul class="aside-menu__sub-list">
-								<li><a href="about.html"><span>About</span></a></li>
-								<li><a href="typography.html"> <span>Typography</span></a></li>
-								<li><a href="donors.html"><span>Donors & Partners</span></a></li>
-								<li><a href="volunteer.html"><span>Become a Volunteer</span></a></li>
+								<li><a href="about.html"><span>Accueil</span></a></li>
+								<li><a href="typography.html"> <span>Causes</span></a></li>
+								<li><a href="donors.html"><span>Évènements</span></a></li>
+								<li><a href="volunteer.html"><span>A propos</span></a></li>
 								<li><a href="events.html"><span>Events</span></a></li>
 								<li><a href="event-details.html"><span>Event Details</span></a></li>
 								<li><a href="stories.html"><span>Stories</span></a></li>
@@ -200,7 +200,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 col-lg-3">
-							<div class="footer-logo"><a class="footer-logo__link" href="index.html"><img class="footer-logo__img" src="img/logo_white.png" alt="logo"/></a></div>
+							<div class="footer-logo"><a class="footer-logo__link" href="index.html"><img class="footer-logo__img" src="{{asset('assets/FrontOffice/img/logo_white.png')}}" alt="logo"/></a></div>
 							<!-- footer socials start-->
 							<ul class="footer-socials">
 								<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -213,9 +213,10 @@
 						<div class="col-sm-6 col-lg-3">
 							<h4 class="footer__title">Contacts</h4>
 							<div class="footer-contacts">
-								<p class="footer-contacts__address">Elliott Ave, Parkville VIC 3052, Melbourne Canada</p>
-								<p class="footer-contacts__phone">Phone: <a href="tel:+31859644725">+31 85 964 47 25</a></p>
-								<p class="footer-contacts__mail">Email: <a href="mailto:support@helpo.org">support@helpo.org</a></p>
+								<p class="footer-contacts__address">Dakar Sénégal</p>
+								<p class="footer-contacts__phone">Mobile: <a href="tel:+31859644725">(+221) 77 000 00 00</a></p>
+								<p class="footer-contacts__phone">Whatsapp: <a href="tel:+31859644725">(+221) 77 000 00 00</a></p>
+								<p class="footer-contacts__mail">Email: <a href="mailto:support@helpo.org">infos@dondecoeur.org</a></p>
 							</div>
 						</div>
 						<div class="col-sm-6 col-lg-3">
@@ -223,20 +224,20 @@
 							<!-- footer nav start-->
 							<nav>
 								<ul class="footer-menu">
-									<li class="footer-menu__item footer-menu__item--active"><a class="footer-menu__link" href="index.html">Home</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="about.html">About</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="#">Contacts</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="#">Pages</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="#">Elements</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="causes.html">Causes</a></li>
+									<li class="footer-menu__item footer-menu__item--active"><a class="footer-menu__link" href="index.html">Accueil</a></li>
+									<li class="footer-menu__item"><a class="footer-menu__link" href="#">Causes</a></li>
+									<li class="footer-menu__item"><a class="footer-menu__link" href="about.html">Évènements</a></li>
+									<li class="footer-menu__item"><a class="footer-menu__link" href="#">A propos</a></li>
+									<li class="footer-menu__item"><a class="footer-menu__link" href="#">Contact</a></li>
+									<li class="footer-menu__item"><a class="footer-menu__link" href="#">Donateurs</a></li>
+									<li class="footer-menu__item"><a class="footer-menu__link" href="causes.html">Volontaires</a></li>
 								</ul>
 							</nav>
 							<!-- footer nav end-->
 						</div>
 						<div class="col-sm-6 col-lg-3">
 							<h4 class="footer__title">Donate</h4>
-							<p>Help Us Change the Lives of Children in World</p><a class="button footer__button button--filled" href="#">Donate</a>
+							<p>Aidez nous à changer la vie de gens qui sont dans le besoin.</p><a class="button footer__button button--filled" href="#"> Faire un don</a>
 						</div>
 					</div>
 					<div class="row align-items-baseline">

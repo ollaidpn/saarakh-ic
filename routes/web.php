@@ -43,6 +43,10 @@ Route::get('/admin/causes', [App\Http\Controllers\CauseController::class, 'creat
 Route::post('/admin/causes-create', [App\Http\Controllers\CauseController::class, 'store'])->name('b-causes-create');
 
 
+Route::get('/admin/evenements', [App\Http\Controllers\EventController::class, 'create'])->name('b-events');
+Route::post('/admin/evenements-create', [App\Http\Controllers\EventController::class, 'store'])->name('b-events-create');
+
+
 Route::get('/admin/messages', [App\Http\Controllers\BackOffieController::class, 'messages'])->name('b-message');
 
 
